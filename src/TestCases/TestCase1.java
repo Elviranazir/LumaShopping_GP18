@@ -12,8 +12,6 @@ public class TestCase1 extends BaseDriver {
     //Confirm that your account created successfully
     @Test
     public void Test1(){
-        //Go to https://magento.softwaretestingboard.com/
-       driver.get("//magento.softwaretestingboard.com/");
 
         //Click Create an Account
         driver.get("https://magento.softwaretestingboard.com/");
@@ -47,6 +45,6 @@ public class TestCase1 extends BaseDriver {
         }else {
             System.out.println("Test verificatin failed!");
         }
-        //        waitAndQuit();
+               waitAndQuit();
     }
 }
